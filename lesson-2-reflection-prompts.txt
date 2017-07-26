@@ -1,0 +1,46 @@
+_What happens when you initialize a repository? Why do you need to do it?
+
+git inti creat folder .git with means that this foled is a repository the .git folder
+the user must not interact with it.
+
+git status give state of the last commit that done and the untaraking file wich not commit at all not even single time.
+
+_How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+
+staging area where we can put only file after git add where here we are preaper the file to be commited and this thing allow us to commit more than one file per commit if they are rely tide to each other logiclay it will make sense
+
+working area contain file that are not commited nither add to staging area
+
+repository have the comiited file only wich have an id msg and so on...
+
+_How can you use the staging area to make sure you have one commit per logical
+change?
+
+
+
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+
+
+
+
+
+How do the diagrams help you visualize the branch structure?
+
+
+
+
+
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+
+
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
