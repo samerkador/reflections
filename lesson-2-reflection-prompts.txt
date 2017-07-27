@@ -11,36 +11,40 @@ What value do you think it offers?
 
 staging area where we can put only file after git add where here we are preaper the file to be commited and this thing allow us to commit more than one file per commit if they are rely tide to each other logiclay it will make sense
 
-working area contain file that are not commited nither add to staging area
+working area contain file that are not commited nither add to staging area but new add or modifeied file
 
 repository have the comiited file only wich have an id msg and so on...
 
 _How can you use the staging area to make sure you have one commit per logical
 change?
 
+by using diffrent verson of diff such as (git diff --staged) (git diff (between workarea and staged one)) (git diff (2 commit IDS))
+
+git checkout master return to the master commit if u change the checkout
 
 
-
-What are some situations when branches would be helpful in keeping your history
+_What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
 
+creat easy_mode and not make it an official to publish, test new featuers, new langues (bad example), have a devolping branch, bored with this branch leave it and back to the master or other branches, keep a working version for showing off or like that :p
+
+git branch details of branches
+git branch String make new branch from the area you are in
+git checkout branch name go to that branceh
+git brance -b String make a branch from your current location and go for it (easy way)
+
+_How do the diagrams help you visualize the branch structure?
 
 
+when making checkout pre committ id we may fill in an reachebal "branch" (not branch)
+so insted we make a branch in on the spiciface area that we want
 
-
-How do the diagrams help you visualize the branch structure?
-
-
-
-
-
-
-What is the result of merging two branches together? Why do we represent it in
+_What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
 
 
 
-What are the pros and cons of Git's automatic merging vs. always doing merges
+_What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
